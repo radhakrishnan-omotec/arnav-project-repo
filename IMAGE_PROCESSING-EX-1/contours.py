@@ -16,7 +16,7 @@ def Contours(img):
     return result
 
 # Load the image
-img = cv2.imread('input_image.jpg')
+img = cv2.imread('IMAGE_PROCESSING-EX-1\input_image.jpg')
 if img is None:
     raise FileNotFoundError("input_image.jpg not found")
 
